@@ -1,0 +1,27 @@
+{
+  "name": "shmearch",
+  "version": "0.0.0",
+  "description": "A search server",
+  "homepage": "https://github.com/gsf/shmearch.git",
+  "engines": {
+    "node": "0.8.2",
+    "npm": "1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsf/shmearch.git"
+  },
+  "dependencies": {
+    "es": "0.0.5",
+    "idgen": "1.1.2",
+    "rut": "0.0.1",
+    "scalpel": "0.0.3",
+    "stack": "0.1.0"
+  }, 
+  "devDependencies": {
+    "request": "2.9.203"
+  },
+  "scripts": {
+    "test" : "find test/*.js | xargs -n 1 -t node"
+  }
+}
